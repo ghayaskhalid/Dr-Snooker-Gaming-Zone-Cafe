@@ -1,0 +1,17 @@
+# Dependencies & build outputs
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# Raw unedited source media (excluded from Git; optimized assets live in /public)
+raw-media/
+
+# Local environment files
+.env
+.env*.local
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
