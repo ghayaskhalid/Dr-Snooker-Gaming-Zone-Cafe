@@ -24,7 +24,7 @@ export interface GalleryItem {
 export const siteConfig = {
   brandName: "DR Snooker & Gaming Zone Cafe",
   brandFullName: "DR Snooker & Gaming Zone Cafe",
-  city: "Ajman, United Arab Emirates",
+  city: "Lavender Plaza - Zaid Bin Thabit Street - Al Rashidiya 2 - Ajman",
   grandOpeningDate: "2026-11-28T00:00:00+04:00",
   grandOpeningLabel: "GRAND OPENING NOV 28 • 24/7",
   whatsappDisplay: "+971 52 9104075",
@@ -35,7 +35,7 @@ export const siteConfig = {
     lng: 55.443139,
     dms: "25°23'55.5\"N 55°26'35.3\"E",
   },
-  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=25.398750,55.443139",
+  googleMapsUrl: "https://share.google/HFTcq67aYMstHPQAp",
   googleMapsEmbedUrl: "https://maps.google.com/maps?q=25.398750,55.443139&z=16&output=embed",
   hours: "Open 24/7 (Launching November 28, 2026)",
   showPricing: false as const,
