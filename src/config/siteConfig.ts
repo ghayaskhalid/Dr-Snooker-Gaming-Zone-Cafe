@@ -30,13 +30,9 @@ export const siteConfig = {
   whatsappDisplay: "+971 52 9104075",
   whatsappNumber: "971529104075",
   whatsappBaseUrl: "https://wa.me/971529104075",
-  coordinates: {
-    lat: 25.398750,
-    lng: 55.443139,
-    dms: "25°23'55.5\"N 55°26'35.3\"E",
-  },
   googleMapsUrl: "https://share.google/HFTcq67aYMstHPQAp",
-  googleMapsEmbedUrl: "https://maps.google.com/maps?q=25.398750,55.443139&z=16&output=embed",
+  googleMapsEmbedUrl:
+    "https://maps.google.com/maps?q=DR%20Snooker%20%26%20Gaming%20Zone%20Cafe%20Lavender%20Plaza%20Ajman&t=&z=16&ie=UTF8&iwloc=&output=embed",
   hours: "Open 24/7 (Launching November 28, 2026)",
   showPricing: false as const,
 

@@ -32,7 +32,7 @@ export function LocationSection() {
             </div>
 
             <div className="space-y-4">
-              {/* Coordinates & Hours Card */}
+              {/* Address & Hours Card */}
               <div className="luxury-surface rounded-2xl p-6 space-y-4">
                 <div className="flex items-start gap-3.5">
                   <MapPin className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
@@ -40,9 +40,8 @@ export function LocationSection() {
                     <div className="text-sm font-semibold text-[#FAF7F2]">
                       {siteConfig.city}
                     </div>
-                    <div className="text-xs text-[#B8AFA6] tabular-nums mt-1">
-                      GPS: {siteConfig.coordinates.lat.toFixed(6)},{" "}
-                      {siteConfig.coordinates.lng.toFixed(6)} ({siteConfig.coordinates.dms})
+                    <div className="text-xs text-[#B8AFA6] mt-1">
+                      Ajman, United Arab Emirates
                     </div>
                   </div>
                 </div>
@@ -93,7 +92,7 @@ export function LocationSection() {
             </div>
           </div>
 
-          {/* Right 7 Columns: Embedded Google Map centered strictly on 25.398750, 55.443139 */}
+          {/* Right 7 Columns: Embedded Google Map for Official Business Listing */}
           <div className="lg:col-span-7 luxury-surface rounded-3xl overflow-hidden min-h-[380px] sm:min-h-[460px] relative">
             <iframe
               title={`${siteConfig.brandName} Ajman Location Map`}
@@ -106,9 +105,9 @@ export function LocationSection() {
             <div className="pointer-events-none absolute bottom-4 left-4 right-4 sm:right-auto luxury-glass-bar rounded-2xl px-4 py-3 flex items-center gap-3">
               <span className="h-2.5 w-2.5 rounded-full bg-[#D4AF37] shrink-0" />
               <div className="text-xs">
-                <div className="font-semibold text-[#FAF7F2]">{siteConfig.brandName} • Ajman</div>
-                <div className="text-[#B8AFA6] tabular-nums">
-                  {siteConfig.coordinates.lat}, {siteConfig.coordinates.lng}
+                <div className="font-semibold text-[#FAF7F2]">{siteConfig.brandName}</div>
+                <div className="text-[#B8AFA6]">
+                  {siteConfig.city}
                 </div>
               </div>
             </div>
