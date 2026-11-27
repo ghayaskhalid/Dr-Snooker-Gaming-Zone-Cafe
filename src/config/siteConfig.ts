@@ -27,9 +27,9 @@ export const siteConfig = {
   city: "Lavender Plaza - Zaid Bin Thabit Street - Al Rashidiya 2 - Ajman",
   grandOpeningDate: "2026-11-28T00:00:00+04:00",
   grandOpeningLabel: "GRAND OPENING NOV 28 • 24/7",
-  whatsappDisplay: "+971 52 9104075",
-  whatsappNumber: "971529104075",
-  whatsappBaseUrl: "https://wa.me/971529104075",
+  whatsappDisplay: "+971 52 548 8631",
+  whatsappNumber: "971525488631",
+  whatsappBaseUrl: "https://wa.me/971525488631",
   googleMapsUrl: "https://share.google/HFTcq67aYMstHPQAp",
   googleMapsEmbedUrl:
     "https://maps.google.com/maps?q=DR%20Snooker%20%26%20Gaming%20Zone%20Cafe%20Lavender%20Plaza%20Ajman&t=&z=16&ie=UTF8&iwloc=&output=embed",
